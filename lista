@@ -1,0 +1,9 @@
+itens = []
+while True:
+    item = str(input("Enter the itens of the list(enter 'end' to exit the program)\n"))
+    if item.lower() == "end":
+        break
+    
+    itens.append(item)
+    
+print("The final itens is: " , " " .join(itens))
